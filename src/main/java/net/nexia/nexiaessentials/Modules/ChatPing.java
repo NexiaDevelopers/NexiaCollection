@@ -22,7 +22,7 @@ public class ChatPing implements Listener
     }
 
     @EventHandler
-    private void onChatMessage(AsyncPlayerChatEvent e)
+    private void pingPlayer(AsyncPlayerChatEvent e)
     {
         String message = e.getMessage();
 
