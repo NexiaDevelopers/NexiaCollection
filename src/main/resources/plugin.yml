@@ -3,5 +3,5 @@ description: '${project.description}'
 version: '${project.version}'
 authors: [HeadMonitor]
 website: https://www.playnexia.net/
-main: net.nexia.nexiacollection.NexiaEssentials
+main: net.nexia.nexiacollection.NexiaCollection
 api-version: 1.13

@@ -11,7 +11,7 @@
 
     <name>NexiaCollection</name>
 
-    <description>Minecraft plugin that contains a collection of smaller modules (plugins) all in one.</description>
+    <description>Minecraft plugin that contains a collection of small modules (plugins) all in one.</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
