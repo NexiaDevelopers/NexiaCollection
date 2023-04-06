@@ -1,4 +1,4 @@
-package net.nexia.nexiaessentials.Modules;
+package net.nexia.nexiacollection.Modules;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;

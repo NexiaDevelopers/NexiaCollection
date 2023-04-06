@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.nexia</groupId>
-    <artifactId>NexiaEssentials</artifactId>
+    <artifactId>NexiaCollection</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>NexiaEssentials</name>
+    <name>NexiaCollection</name>
 
-    <description>Minecraft plugin that contains the Essentials of Nexia.</description>
+    <description>Minecraft plugin that contains a collection of smaller modules (plugins) all in one.</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

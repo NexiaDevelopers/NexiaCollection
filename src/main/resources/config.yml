@@ -1,0 +1,32 @@
+# MAIN SETTINGS
+
+# MODULE SETTINGS
+## AcceptTheRules
+AcceptTheRules: true                      # Set whether you want AcceptTheRules module enabled.
+
+## Broadcast
+Broadcast: true                           # Set whether you want Broadcast module enabled.
+
+## ChatItem
+ChatItem: true                            # Set whether you want ChatItem module enabled.
+ChatItemSyntax: '[item]'                  # The syntax that will display the item in chat.
+
+## ChatPing
+ChatPing: true                            # Set whether you want ChatPing module enabled.
+PingSound: ENTITY_EXPERIENCE_ORB_PICKUP   # The sound to play when a Player get Pinged. (Check this list for correct usage: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html)
+
+## RandomTeleport
+RandomTeleport: true                      # Set whether you want RandomTeleport module enabled.
+
+## Sorter
+Sorter: true                              # Set whether you want Sorter module enabled.
+
+## ToggleKeepInventory
+ToggleKeepInventory: true                 # Set whether you want ToggleKeepInventory module enabled.
+
+#    _   _           _          ____      _ _           _   _
+#   | \ | | _____  _(_) __ _   / ___|___ | | | ___  ___| |_(_) ___  _ __
+#   |  \| |/ _ \ \/ / |/ _` | | |   / _ \| | |/ _ \/ __| __| |/ _ \| '_ \
+#   | |\  |  __/>  <| | (_| | | |__| (_) | | |  __/ (__| |_| | (_) | | | |
+#   |_| \_|\___/_/\_\_|\__,_|  \____\___/|_|_|\___|\___|\__|_|\___/|_| |_|
+#

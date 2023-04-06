@@ -1,10 +1,10 @@
-package net.nexia.nexiaessentials;
+package net.nexia.nexiacollection;
 
-import net.nexia.nexiaessentials.Modules.ChatItem;
-import net.nexia.nexiaessentials.Modules.ChatPing;
+import net.nexia.nexiacollection.Modules.ChatItem;
+import net.nexia.nexiacollection.Modules.ChatPing;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class NexiaEssentials extends JavaPlugin
+public final class NexiaCollection extends JavaPlugin
 {
 
     @Override
