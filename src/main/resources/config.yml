@@ -6,10 +6,13 @@ AcceptTheRules: true                      # Set whether you want AcceptTheRules 
 
 ## Broadcast
 Broadcast: true                           # Set whether you want Broadcast module enabled.
+BroadcastMessagePrefix: '&c&l'            # Set the prefix for the Broadcast Message.
+BroadcastTitleColor: ['RED', 'ORANGE']    # Set the color of the Title and Subtitle for the Broadcast Title.
+BroadcastBossbarColor: ['RED', 'ORANGE']  # Set the color of the Bossbar Text and Filler for the Broadcast Bossbar.
 
 ## ChatItem
 ChatItem: true                            # Set whether you want ChatItem module enabled.
-ChatItemSyntax: '[item]'                  # The syntax that will display the item in chat.
+ChatItemSyntax: '[item]'                  # The syntax that will display the item in chat. It needs to contain the word "item".
 
 ## ChatPing
 ChatPing: true                            # Set whether you want ChatPing module enabled.

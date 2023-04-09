@@ -1,12 +1,12 @@
 package net.nexia.nexiacollection.Modules;
 
-import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.HoverEvent;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.chat.hover.content.Content;
 import net.md_5.bungee.api.chat.hover.content.Text;
-import net.nexia.nexiaapi.Processes;
+import net.nexia.nexiacollection.NexiaCollection;
 import org.bukkit.Bukkit;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -19,6 +19,8 @@ import java.util.List;
 
 public class ChatItem implements Listener
 {
+
+    FileConfiguration config = NexiaCollection.getMain().getConfig();
 
     public ChatItem(JavaPlugin plugin)
     {
@@ -33,11 +35,13 @@ public class ChatItem implements Listener
         ItemStack item = player.getInventory().getItemInMainHand();
         ItemMeta itemMeta = item.getItemMeta();
         if (itemMeta == null) return;
-        String itemName = itemMeta.getDisplayName().length() == 0 ? item.getType().name() : itemMeta.getDisplayName();
+        String itemName = itemMeta.getDisplayName().length() == 0 ? item.getItemMeta().getLocalizedName() : itemMeta.getDisplayName();
 
-        if (message.contains("[item]"))
+        String chatItemSyntax = config.getString("ChatItemSyntax");
+
+        if (message.contains(chatItemSyntax))
         {
-            TextComponent itemMessage = new TextComponent("[" + itemName +"]");
+            TextComponent itemMessage = new TextComponent(chatItemSyntax);
             List<String> lore = itemMeta.getLore();
             int loreSize = lore == null ? 0 : lore.size();
 
